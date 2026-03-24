@@ -30,11 +30,8 @@ Three configurations were evaluated:
 1. Install dependencies:
    ! pip install -r requirements.txt
 
-2. Open notebooks in order:
-- baseline_model.ipynb
-- moderate_model.ipynb
-- aggressive_model.ipynb
-- gradcam_analysis.ipynb
+2. Open notebook:
+- Augmentation_CNN
 
 ## Key Insight
 
