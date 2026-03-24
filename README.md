@@ -9,7 +9,14 @@ This repository contains code and materials for a machine learning tutorial inve
 - Spatial attention patterns using Grad-CAM
 
 ## Dataset
-CIFAR-10 dataset (subset used for faster experimentation).
+Experiments were conducted using the CIFAR-10 dataset.
+A subset of the training data was used to reduce training time,
+while the full test set was retained for evaluation.
+
+## Reproducibility Notes
+
+Random seeds were fixed where possible to ensure consistent results.
+Training was performed using transfer learning with a frozen MobileNetV2 backbone.
 
 ## Models
 Transfer learning with MobileNetV2 backbone (frozen feature extractor).
