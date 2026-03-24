@@ -1,1 +1,44 @@
 # cnn-augmentation-attention-tutorial
+
+# Understanding How Data Augmentation Affects Attention and Prediction Stability in CNNs
+
+This repository contains code and materials for a machine learning tutorial investigating how different data augmentation strengths influence:
+
+- Model convergence behaviour
+- Prediction stability under perturbations
+- Spatial attention patterns using Grad-CAM
+
+## Dataset
+CIFAR-10 dataset (subset used for faster experimentation).
+
+## Models
+Transfer learning with MobileNetV2 backbone (frozen feature extractor).
+
+Three configurations were evaluated:
+- Baseline (no augmentation)
+- Moderate augmentation
+- Aggressive augmentation
+
+## Repository Structure
+
+- notebook/ → Jupyter notebooks for training and analysis
+- figures/ → Visualisations used in the tutorial
+- report/ → Final tutorial report (PDF)
+
+## How to Run
+
+1. Install dependencies:
+   ! pip install -r requirements.txt
+
+2. Open notebooks in order:
+- baseline_model.ipynb
+- moderate_model.ipynb
+- aggressive_model.ipynb
+- gradcam_analysis.ipynb
+
+## Key Insight
+
+Augmentation strength affects not only accuracy but also prediction stability and model attention behaviour.
+
+## License
+MIT License
